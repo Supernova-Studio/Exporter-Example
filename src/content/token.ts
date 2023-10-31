@@ -1,6 +1,5 @@
 import { NamingHelper, CSSHelper, ColorFormat, StringCase } from "@supernovaio/export-helpers"
 import { ColorToken, Token, TokenGroup } from "@supernovaio/sdk-exporters"
-import { exportConfiguration } from ".."
 
 export function colorTokenToCSS(token: ColorToken, mappedTokens: Map<string, Token>, tokenGroups: Array<TokenGroup>): string {
   // First creating the name of the token, using helper function which turns any token name / path into a valid variable name
