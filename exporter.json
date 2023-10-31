@@ -1,21 +1,16 @@
 {
-    "id": "io.supernova.example-exporter",
-    "name": "Example Exporter",
-    "description": "Example exporter that can export basic colors from the targeted design system",
-    "author": "Your name goes here",
-    "organization": "Your organization goes here",
-    "source_dir": "src",
+    "id": "[COMPANY_NAME].exporter-[PLATFORM]",
+    "name": "[PLATFORM] Exporter",
+    "description": "Export your design system data into [PLATFORM / TECHNOLOGY]",
+    "author": "[AUTHOR_NAME]",
+    "organization": "[COMPANY_NAME]",
+    "homepage": "[COMPANY_WEBSITE or delete]",
     "version": "1.0.0",
     "usesBrands": true,
-    "config": {
-        "sources": "sources.json",
-        "output": "output.json"
-    },
-    "engines": {
-        "pulsar": "1.0.0",
-        "supernova": "1.0.0"
-    },
+    "usesThemes": true,
+    "executable": "/dist/build.js",
+    "engine": "latest",
     "tags": [
-        "Flutter"
+        "[ANYTHING_YOU_WANT, like 'Tokens', 'Assets' etc.]"
     ]
 }

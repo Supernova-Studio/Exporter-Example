@@ -1,8 +1,0 @@
-{
-    "blueprints": [
-        {
-            "invoke": "colors.pr",
-            "write_to": "styles/colors.css"
-        }
-    ]
-}
